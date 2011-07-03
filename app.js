@@ -34,3 +34,8 @@ app.configure('development', function(){
 });
 
 
+var db = require('./lib/mongodb').connect(app.set('mongodb'));
+
+app.listen(app.set('port'));
+console.log("Express server listening on port %d", app.address().port);
+
