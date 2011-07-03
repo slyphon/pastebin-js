@@ -1,0 +1,16 @@
+{
+  "name":    "pastebin-js",
+
+  "version": "0.0.1",
+
+  "dependencies": {
+
+    "underscore": "",
+    "mongodb":    "",
+    "mongolia":   "",
+    "coffee-script": "",
+    "express": "",
+    "jade": ""
+
+  }
+}
